@@ -1,3 +1,54 @@
 <resources>
-    <string name="app_name">Odisha</string>
+    <string name="app_name">SAUDÁVEL GOA</string>
+    <string name="title_activity_users_maps">Map</string>
+    <string name="title_activity_forums">Forums</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_hospitals">Map</string>
+    <string name="title_activity_about">ABOUT</string>
+    <string name="large_text">
+        "ABOUT SAUDÁVEL GOA\n\n"
+
+        "Our team has developed an app which we believe will help in slowing down the community spread"
+        "of COVID-19 with the help of the feature of vicinity alert. The tagging of patients will be"
+        "carried out by registered medical professionals to prevent any false and wrong registrations."
+        "For the help of users in critical conditions we have added the features of helping centres"
+        "and emergency contacts for quick redressal of queries. \n\n"
+
+        "FEATURES\n\n"
+
+        "HEALTHCARE WORKER\n\n"
+
+        "Tag a patient – Allows registered medical professionals to mark patients who have a"
+        "positive test result for Covid-19.\n\n"
+        "Forum – A medium for medical professionals to discuss and share knowledge among themselves"
+        "about complications in cases, new treatment plans and responses to"
+        "different treatments in different cases.\n\n"
+
+        "USER\n\n"
+
+        "Profile – displays the vital information of the users such as blood group, medical"
+        "conditions if any and emergency contacts.\n\n"
+        "Vicinity alert – An important feature of the app that allows you to view if there are"
+        "any positive cases in a 100-meter radius from your location.\n\n"
+        "Testing centres - Provides the location of the nearest testing centres and hospitals for"
+        "easier navigation.\n\n"
+        "Emergency contacts – All the government helplines in one place redirecting to the dial-pad"
+        "for quick contacting.\n\n"
+        "Volunteering – A gateway for interested volunteers to register themselves with the government.\n\n"
+        "Preventive measures – a slideshow of creative animations showing the safety and helping"
+        "measures one can take in these tough times.\n\n"
+        "Donation gateways – A gateway to the site of PM CARES FUND and GOVERNMENT OF GOA enables"
+        "users to make donations to help the government.\n\n"
+        "Settings – Enables the user to update and delete their profile when they want.\n\n"
+
+
+        "CREDITS\n\n"
+
+        "Preventive Measures Illustration by A.A. DOODLES&#8482; (Ashwini.A.Abhang) \n\n"
+         "Follow on Instagram: <a href="https://www.instagram.com/ashwiniabhang/?igshid=1vyng6o4824za">Ahiru</a>"
+    </string>
+
+
+    <string name="title_activity_about_worker">ABOUT</string>
+    <string name="title_activity_odishamap">Map</string>
 </resources>

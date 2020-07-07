@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "462927403946",
+    "firebase_url": "https://odisha-d5b2f.firebaseio.com",
+    "project_id": "odisha-d5b2f",
+    "storage_bucket": "odisha-d5b2f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:462927403946:android:c1bd64b145e310719ca9d3",
+        "android_client_info": {
+          "package_name": "com.covid19.odisha"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "462927403946-80001dstvve37eu5r4vrvc614jg4o6q7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAmmBXSde6VHrMUJdozNFvk8CLQlNZrFtk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "462927403946-80001dstvve37eu5r4vrvc614jg4o6q7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

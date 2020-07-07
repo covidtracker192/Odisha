@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".post_forum">
+
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="336dp"
+        android:layout_height="42dp"
+        android:text="Underlying Medical Conditions"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/editText12"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView26" />
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="121dp"
+        android:layout_height="60dp"
+        android:text="Treatment Plan"
+       android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView31"
+        app:layout_constraintEnd_toStartOf="@+id/editText11"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText12" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="107dp"
+        android:layout_height="45dp"
+        android:text="Gender"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView26"
+        app:layout_constraintEnd_toStartOf="@+id/editText15"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView24" />
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="107dp"
+        android:layout_height="45dp"
+        android:text="Symptoms"
+         android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView28"
+        app:layout_constraintEnd_toStartOf="@+id/editText16"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView25" />
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="154dp"
+        android:layout_height="48dp"
+        android:text="Any Other Info"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView23"
+        app:layout_constraintEnd_toStartOf="@+id/editText13"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView31" />
+
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="154dp"
+        android:layout_height="48dp"
+        android:text="Response to Treatment"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView30"
+        app:layout_constraintEnd_toStartOf="@+id/radioGroup"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView29" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="107dp"
+        android:layout_height="45dp"
+        android:text="Age"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView25"
+        app:layout_constraintEnd_toStartOf="@+id/editText14"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView24" />
+
+    <EditText
+        android:id="@+id/editText11"
+        android:layout_width="212dp"
+        android:layout_height="62dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/radioGroup"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/textView29"
+        app:layout_constraintTop_toBottomOf="@+id/editText12" />
+
+    <EditText
+        android:id="@+id/editText12"
+        android:layout_width="351dp"
+        android:layout_height="43dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/editText11"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView28" />
+
+    <EditText
+        android:id="@+id/editText13"
+        android:layout_width="206dp"
+        android:layout_height="47dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView23"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/textView30"
+        app:layout_constraintTop_toBottomOf="@+id/radioGroup" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="201dp"
+        android:layout_height="96dp"
+        app:layout_constraintBottom_toTopOf="@+id/editText13"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/textView31"
+        app:layout_constraintTop_toBottomOf="@+id/editText11">
+
+        <RadioButton
+            android:id="@+id/radioButton"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:text="IMPROVE"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:layout_width="match_parent"
+            android:layout_height="43dp"
+            android:text="DETERIORATE"
+            android:textSize="20sp" />
+    </RadioGroup>
+
+    <ImageView
+        android:id="@+id/imageView23"
+        android:layout_width="148dp"
+        android:layout_height="53dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText13"
+        app:srcCompat="@drawable/post" />
+
+    <EditText
+        android:id="@+id/editText14"
+        android:layout_width="239dp"
+        android:layout_height="44dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/editText15"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/textView24"
+        app:layout_constraintTop_toBottomOf="@+id/imageView24" />
+
+    <EditText
+        android:id="@+id/editText15"
+        android:layout_width="239dp"
+        android:layout_height="44dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/editText16"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/textView25"
+        app:layout_constraintTop_toBottomOf="@+id/editText14" />
+
+    <EditText
+        android:id="@+id/editText16"
+        android:layout_width="239dp"
+        android:layout_height="44dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView28"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/textView26"
+        app:layout_constraintTop_toBottomOf="@+id/editText15" />
+
+    <ImageView
+        android:id="@+id/imageView24"
+        android:layout_width="320dp"
+        android:layout_height="62dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView24"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/forum" />
+</androidx.constraintlayout.widget.ConstraintLayout>

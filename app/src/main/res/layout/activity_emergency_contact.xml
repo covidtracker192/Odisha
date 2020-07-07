@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/layout"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView35"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\nCentral Helpline Number"
+                android:textAlignment="center"
+                android:textColor="#FF0000"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/textView36"
+                android:layout_width="match_parent"
+                android:layout_height="46dp"
+                android:text="+91-11-23978046"
+                android:textAlignment="center"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView38"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\nGoa Helpline Number (including quarantine violations)"
+                android:textAlignment="center"
+                android:textColor="#FF0000"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/textView39"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="104"
+                android:textAlignment="center"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView40"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:text="\nHelpline Email-ID"
+                android:textAlignment="center"
+                android:textColor="#FF0000"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/textView41"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ncov2019@gov.in"
+                android:textAlignment="center"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView42"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\nFood Helpline Number(North Goa)"
+                android:textAlignment="center"
+                android:textColor="#FF0000"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/textView43"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="+919423890077"
+                android:textAlignment="center"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView44"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\nFood Helpline Number(South Goa)"
+                android:textAlignment="center"
+                android:textColor="#FF0000"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/textView45"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="+919423890066"
+                android:textAlignment="center"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView46"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\nWebsite"
+                android:textAlignment="center"
+                android:textColor="#FF0000"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/textView47"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="https://www.mohfw.gov.in"
+                android:textAlignment="center"
+                android:textSize="24sp" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

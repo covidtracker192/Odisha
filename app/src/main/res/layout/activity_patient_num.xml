@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".patient_num">
+
+    <ImageView
+        android:id="@+id/imageView22"
+        android:layout_width="136dp"
+        android:layout_height="118dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView27"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/pat_num" />
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="297dp"
+        android:layout_height="68dp"
+        android:text="Enter Patients Mobile Number"
+        android:gravity="center"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toTopOf="@+id/editText17"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView22" />
+
+    <EditText
+        android:id="@+id/editText17"
+        android:layout_width="298dp"
+        android:layout_height="71dp"
+        android:ems="10"
+        android:inputType="number"
+        android:gravity="center"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView25"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView27" />
+
+    <ImageView
+        android:id="@+id/imageView25"
+        android:layout_width="279dp"
+        android:layout_height="63dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText17"
+        app:srcCompat="@drawable/fetch" />
+</androidx.constraintlayout.widget.ConstraintLayout>
