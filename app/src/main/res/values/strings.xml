@@ -1,12 +1,12 @@
 <resources>
-    <string name="app_name">SAUDÁVEL GOA</string>
+    <string name="app_name">Odisha</string>
     <string name="title_activity_users_maps">Map</string>
     <string name="title_activity_forums">Forums</string>
     <string name="action_settings">Settings</string>
     <string name="title_activity_hospitals">Map</string>
     <string name="title_activity_about">ABOUT</string>
     <string name="large_text">
-        "ABOUT SAUDÁVEL GOA\n\n"
+        "ABOUT Odisha\n\n"
 
         "Our team has developed an app which we believe will help in slowing down the community spread"
         "of COVID-19 with the help of the feature of vicinity alert. The tagging of patients will be"
