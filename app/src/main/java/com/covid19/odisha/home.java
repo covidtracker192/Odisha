@@ -109,12 +109,12 @@ Button profile, settings, volunteer, alert, pmcare, goafund, hospital, contact, 
             @Override
             public void onClick(View v) {
                 new AlertDialog.Builder(home.this)
-                        .setTitle("Goa State COVID-19 Relief Fund.")
-                        .setMessage("You will be redirected to the official payment link of Goa State COVID-19 Relief Fund. Do you want to continue?")
+                        .setTitle("Odisha State COVID-19 Relief Fund.")
+                        .setMessage("You will be redirected to the official payment link of Odisha State COVID-19 Relief Fund. Do you want to continue?")
                         .setPositiveButton("Continue", new DialogInterface.OnClickListener() {
                             public void onClick(DialogInterface dialog, int which) {
                                 // Continue with COVID-19 goa relief fund
-                                Uri uriUrl = Uri.parse("https://www.onlinesbi.com/sbicollect/icollecthome.htm?corpID=1963359");
+                                Uri uriUrl = Uri.parse("https://cmrfodisha.gov.in/donation/onlinedonation.php");
                                 Intent launchBrowser = new Intent(Intent.ACTION_VIEW, uriUrl);
                                 startActivity(launchBrowser);
                             }
