@@ -25,6 +25,16 @@ public class emergency_contact extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+        TextView ohn;
+        ohn=findViewById(R.id.textView44);
+        ohn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Intent.ACTION_DIAL);
+                intent.setData(Uri.parse("tel: 9439994859"));
+                startActivity(intent);
+            }
+        });
     }
 
     public void onBackPressed(){
