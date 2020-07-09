@@ -15,6 +15,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "462927403946-v4kbh0ss227btojbtgdkl48mcij52lvi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.covid19.odisha",
+            "certificate_hash": "0bea6d3456d39b2b8ed4b521e87e239c73074794"
+          }
+        },
+        {
           "client_id": "462927403946-80001dstvve37eu5r4vrvc614jg4o6q7.apps.googleusercontent.com",
           "client_type": 3
         }
